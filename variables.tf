@@ -3,14 +3,6 @@ variable "resource_group_name" {
   description = "This defines the name of the resource group"
 }
 
-variable "service-principal-key-client-id" {
-  type = string
-}
-
-variable "service-principal-key-client-secret" {
-  type = string
-}
-
 variable "location" {
   type        = string
   description = "This defines the location of the resource group and the resources"
